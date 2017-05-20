@@ -13,9 +13,15 @@ public class SceneMove : MonoBehaviour {
     {
         SceneManager.LoadScene("Setting");
     }
+    private string saveTime;
     public void GoWait()
     {
-        SceneManager.LoadScene("Wait");
+        saveTime = SettingTime.getsavetimer();
+        //print(saveTime);
+        if (saveTime != null)
+        {
+            SceneManager.LoadScene("Wait");
+        }
     }
 
 }

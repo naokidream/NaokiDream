@@ -30,7 +30,9 @@ public class alermSettings : MonoBehaviour {
         // 取得する値: 秒
         datetimeSecond = System.DateTime.Now.Second.ToString();
 
+
         datetimeStr = datetimeYeah + "/" + datetimeMonth + "/" + datetimeDay + " " + datetimeHour + ":" + datetimeMinute + ":" + datetimeSecond;
+        
 
         //datetimeStr = System.DateTime.Now.ToString();
 
