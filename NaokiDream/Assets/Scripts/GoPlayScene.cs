@@ -29,6 +29,7 @@ public class GoPlayScene : MonoBehaviour {
         var datetimeSecond = System.DateTime.Now.Second.ToString();
 
         var  datetimeStr = datetimeYeah + "/" + datetimeMonth + "/" + datetimeDay + " " + datetimeHour + ":" + datetimeMinute + ":" + datetimeSecond;
+
         if (saveTime == datetimeStr)
         {
             SceneManager.LoadScene("PlayScene");
