@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GoMain : MonoBehaviour {
+public class GoPlayScene : MonoBehaviour {
 
     private string saveTime;
 	// Use this for initialization
@@ -31,7 +31,7 @@ public class GoMain : MonoBehaviour {
         var  datetimeStr = datetimeYeah + "/" + datetimeMonth + "/" + datetimeDay + " " + datetimeHour + ":" + datetimeMinute + ":" + datetimeSecond;
         if (saveTime == datetimeStr)
         {
-            SceneManager.LoadScene("Main");
+            SceneManager.LoadScene("PlayScene");
         }
         else
         {

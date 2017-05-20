@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 492}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -111,7 +111,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 442}
   m_MaxSize: {x: 22012, y: 10021}
   vertical: 0
-  controlID: 68
+  controlID: 90
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -365,14 +365,14 @@ MonoBehaviour:
     width: 378
     height: 354
   m_SceneLighting: 1
-  lastFramingTime: 0
+  lastFramingTime: 196.998738847309
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 5.1633987, y: 0.65545106, z: 12.919343}
+    m_Target: {x: 189, y: 159, z: 0}
     speed: 2
-    m_Value: {x: 5.1633987, y: 0.65545106, z: 12.919343}
+    m_Value: {x: 189, y: 159, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -395,13 +395,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.08620518, y: 0.23450314, z: -0.020884398, w: 0.9680604}
+    m_Target: {x: -0.15204746, y: -0.8426695, z: 0.3102911, w: -0.41292757}
     speed: 2
-    m_Value: {x: 0.08620518, y: 0.23450314, z: -0.020884398, w: 0.9680604}
+    m_Value: {x: 0.15204746, y: 0.84266955, z: -0.3102911, w: 0.4129276}
   m_Size:
-    m_Target: 20.416174
+    m_Target: 268.60056
     speed: 2
-    m_Value: 20.416174
+    m_Value: 268.60056
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -468,7 +468,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 8803ffffa409ffff7ef5ffff12f6ffff28f7ffffe2fbffff00000000
+    m_ExpandedIDs: b2a5ffffccb2ffff62b3ffff96b5ffffa8b6ffff70c7ffff12f2ffffe2fbffff00000000a02b0000c02b0000ca2b0000362e0000542e0000622e0000662e0000742e0000962e00009a360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -487,7 +487,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 9}
     m_SearchString: 
   m_ExpandedScenes:
-  - PlayScene
+  - Setting
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -528,35 +528,35 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/UnityChan
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/UnityChan
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\s152189\Desktop\Spjam\NaokiDream
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 5a250000
-    m_LastClickedID: 9562
-    m_ExpandedIDs: 00000000fc240000a4250000842600004a270000f428000036290000f22a0000fc300000fe3000000031000000ca9a3bffffff7f
+    m_SelectedIDs: 98280000
+    m_LastClickedID: 10392
+    m_ExpandedIDs: 00000000fc240000862600004c27000016290000182c00001a2c00001c2c00001e2c0000202c0000222c000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Prefabs
+      m_OriginalName: Prefabs
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 10630
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 10}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -568,7 +568,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000fc2400005a250000842600004a27000036290000b82a0000fc300000fe30000000310000
+    m_ExpandedIDs: 00000000fc240000862600004c27000016290000182c00001a2c00001c2c00001e2c0000202c0000222c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -595,7 +595,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
