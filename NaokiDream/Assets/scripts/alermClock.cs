@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class alermClock : MonoBehaviour {
 
@@ -8,6 +9,8 @@ public class alermClock : MonoBehaviour {
     void Update()
     {
         datetimeStr = System.DateTime.Now.ToString();
-        Debug.Log(datetimeStr);
+        var text = gameObject.GetComponent<Text>();
+        //Debug.Log(redatetimeStr.Length);
+        text.text = datetimeStr;
     }
 }
