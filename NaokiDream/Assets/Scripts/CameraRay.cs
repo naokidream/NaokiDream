@@ -27,7 +27,7 @@ public class CameraRay : MonoBehaviour {
             if(hit.collider.gameObject.tag=="Clear")
             {
                 //「いってらっしゃい」と言われる
-                _voice.GetComponent<PlaySound>().voiceNumber = 6;
+                //_voice.GetComponent<PlaySound>().voiceNumber = 6;
                 
             }
             if (hit.collider.gameObject.tag == "Face")
